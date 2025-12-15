@@ -12,7 +12,7 @@ const HeroSection = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <img 
-          src="/tci00670000807.jpg" 
+          src={`${import.meta.env.BASE_URL}tci00670000807.jpg`}
           alt="Hero Background" 
           className="w-full h-full object-cover"
         />

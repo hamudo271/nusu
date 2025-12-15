@@ -5,9 +5,9 @@ const GallerySection = () => {
   const galleryRef = useRef(null);
 
   const galleryImages = [
+    'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
+    'https://images.unsplash.com/photo-1605504836193-e77d3d9ede8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
     'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
-    'https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
-    'https://images.unsplash.com/photo-1594411130986-9ac64600f68d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
   ];
 
   useEffect(() => {

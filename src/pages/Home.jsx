@@ -76,11 +76,11 @@ const Home = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1581578731117-104f885e3cc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=500&q=80"
+                src="https://images.unsplash.com/photo-1569347665764-0eee766c909d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=500&q=80"
                 alt="About Us"
                 className="w-full h-auto object-cover rounded-lg shadow-xl"
               />
-              <div className="absolute top-4 right-4 bg-blue-500 text-gray-900 px-4 py-2 rounded-full font-semibold">
+              <div className="absolute top-4 right-4 bg-blue-500 text-white px-4 py-2 rounded-full font-semibold">
                 Since 2004
               </div>
             </div>

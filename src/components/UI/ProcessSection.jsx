@@ -23,21 +23,21 @@ const ProcessSection = () => {
                 title: '정밀 탐지', 
                 description: '청음식, 가스식, 열화상 등 최첨단 장비로 누수 지점 포착', 
                 icon: 'ri-search-line',
-                image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
               },
               { 
                 step: '02', 
                 title: '확실한 시공', 
                 description: '최소한의 파쇄로 배관 교체 및 수리 진행', 
                 icon: 'ri-tools-line',
-                image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
               },
               { 
                 step: '03', 
                 title: '마감 및 확인', 
                 description: '공압 검사로 재누수 여부 확인 후 깔끔한 미장 마감', 
                 icon: 'ri-checkbox-circle-line',
-                image: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
               },
             ].map((process, index) => (
               <div key={index} className="relative group">

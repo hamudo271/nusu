@@ -6,7 +6,7 @@ const GallerySection = () => {
 
   const galleryImages = [
     'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
-    'https://images.unsplash.com/photo-1605504836193-e77d3d9ede8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
+    `${import.meta.env.BASE_URL}tica1010013659.jpg`,
     'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
   ];
 
@@ -42,7 +42,7 @@ const GallerySection = () => {
         <div className={`mb-8 transform transition-all duration-1000 delay-300 ${galleryVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
           <div className="relative overflow-hidden rounded-2xl group cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=600&q=80"
+              src={`${import.meta.env.BASE_URL}cm080765363.jpg`}
               alt="Professional Service"
               className="w-full h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />

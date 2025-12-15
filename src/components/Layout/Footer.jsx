@@ -1,70 +1,55 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-dark text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          {/* Company Info */}
+    <footer className="bg-gray-800 py-12 px-6 text-white">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-6 flex items-center">
-              <span className="mr-2 text-secondary">💧</span> 누수제로
-            </h3>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              누수탐지, 배관공사, 방수공사 전문 업체입니다.<br />
-              정확한 진단과 완벽한 시공을 약속드립니다.
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 flex items-center justify-center">
+                <i className="ri-drop-fill text-yellow-400 text-2xl"></i>
+              </div>
+              <span className="text-xl font-bold" style={{fontFamily: 'Pacifico, serif'}}>LeakZero</span>
+            </div>
+            <p className="text-gray-400">
+              20년 경력의 부산/경남 누수 탐지 전문 업체.<br/>
+              정직한 시공과 확실한 AS를 약속합니다.
             </p>
           </div>
-
-          {/* Quick Links */}
+          
           <div>
-            <h3 className="text-lg font-bold mb-6 border-b border-gray-700 pb-2 inline-block">바로가기</h3>
-            <ul className="space-y-3">
-              <li><Link to="/about" className="text-gray-300 hover:text-secondary-light transition-colors flex items-center"><span className="mr-2">›</span> 회사소개</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-secondary-light transition-colors flex items-center"><span className="mr-2">›</span> 사업영역</Link></li>
-              <li><Link to="/portfolio" className="text-gray-300 hover:text-secondary-light transition-colors flex items-center"><span className="mr-2">›</span> 시공사례</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-secondary-light transition-colors flex items-center"><span className="mr-2">›</span> 온라인 문의</Link></li>
+            <h4 className="text-white font-semibold mb-4">서비스</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">누수 탐지</Link></li>
+              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">배관 공사</Link></li>
+              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">방수 공사</Link></li>
+              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">하수구 막힘</Link></li>
             </ul>
           </div>
-
-          {/* Contact Info */}
+          
           <div>
-            <h3 className="text-lg font-bold mb-6 border-b border-gray-700 pb-2 inline-block">문의하기</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start group">
-                <div className="bg-white/10 p-2 rounded-full mr-3 group-hover:bg-secondary transition-colors">
-                  <Phone className="text-white" size={18} />
-                </div>
-                <div>
-                  <span className="block text-xs text-gray-400">전화문의</span>
-                  <span className="text-lg font-bold">010-9737-1215</span>
-                </div>
-              </li>
-              <li className="flex items-start group">
-                <div className="bg-white/10 p-2 rounded-full mr-3 group-hover:bg-secondary transition-colors">
-                  <Mail className="text-white" size={18} />
-                </div>
-                <div>
-                  <span className="block text-xs text-gray-400">이메일</span>
-                  <span className="text-gray-300">psmpsm85121@naver.com</span>
-                </div>
-              </li>
-              <li className="flex items-start group">
-                <div className="bg-white/10 p-2 rounded-full mr-3 group-hover:bg-secondary transition-colors">
-                  <MapPin className="text-white" size={18} />
-                </div>
-                <div>
-                  <span className="block text-xs text-gray-400">출장지역</span>
-                  <span className="text-gray-300">부산/경남 전지역 출장 가능</span>
-                </div>
-              </li>
+            <h4 className="text-white font-semibold mb-4">문의하기</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li>010-9737-1215</li>
+              <li>psmpsm85121@naver.com</li>
+              <li>부산/경남 전지역</li>
+              <li>24시간 상담 가능</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="text-white font-semibold mb-4">업무 시간</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li>월-일: 24시간</li>
+              <li>연중무휴</li>
+              <li>긴급 출동 대기</li>
             </ul>
           </div>
         </div>
-
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+        
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} 누수제로. All rights reserved.</p>
         </div>
       </div>

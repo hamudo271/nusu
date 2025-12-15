@@ -76,7 +76,7 @@ const Home = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://readdy.ai/api/search-image?query=professional%20leak%20detection%20expert%20working%20with%20equipment%20in%20modern%20building%2C%20high%20quality%20photography%2C%20trustworthy%20mood&width=600&height=500&seq=about1&orientation=landscape"
+                src="https://images.unsplash.com/photo-1581578731117-104f885e3cc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=500&q=80"
                 alt="About Us"
                 className="w-full h-auto object-cover rounded-lg shadow-xl"
               />

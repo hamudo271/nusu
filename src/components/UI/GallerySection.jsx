@@ -5,9 +5,9 @@ const GallerySection = () => {
   const galleryRef = useRef(null);
 
   const galleryImages = [
-    'https://readdy.ai/api/search-image?query=professional%20plumber%20fixing%20leak%20under%20sink%20with%20wrench%2C%20modern%20tools%2C%20clean%20workspace&width=400&height=300&seq=gallery2&orientation=landscape',
-    'https://readdy.ai/api/search-image?query=thermal%20camera%20detecting%20water%20leak%20in%20wall%2C%20professional%20leak%20detection%20equipment%20screen%20showing%20heat%20map&width=400&height=300&seq=gallery3&orientation=landscape',
-    'https://readdy.ai/api/search-image?query=waterproof%20sealant%20application%20bathroom%20tiles%2C%20professional%20hand%20applying%20silicone%2C%20clean%20finish&width=400&height=300&seq=gallery4&orientation=landscape',
+    'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
+    'https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
+    'https://images.unsplash.com/photo-1594411130986-9ac64600f68d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=450&q=80',
   ];
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const GallerySection = () => {
         <div className={`mb-8 transform transition-all duration-1000 delay-300 ${galleryVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
           <div className="relative overflow-hidden rounded-2xl group cursor-pointer">
             <img 
-              src="https://readdy.ai/api/search-image?query=modern%20building%20interior%20water%20damage%20restoration%2C%20clean%20and%20dry%20after%20repair%2C%20professional%20result&width=1200&height=500&seq=gallery-hero&orientation=landscape"
+              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=600&q=80"
               alt="Professional Service"
               className="w-full h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />

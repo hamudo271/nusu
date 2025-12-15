@@ -5,8 +5,8 @@ const ProcessSection = () => {
     <section className="py-20 bg-gray-900">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-4 text-white">
-          체계적인 <span className="text-yellow-400">누수 탐지</span><br />
-          <span className="text-yellow-400">프로세스</span>
+          체계적인 <span className="text-blue-500">누수 탐지</span><br />
+          <span className="text-blue-500">프로세스</span>
         </h2>
         
         <p className="text-gray-300 text-lg mb-16 max-w-2xl mx-auto">
@@ -14,7 +14,7 @@ const ProcessSection = () => {
         </p>
         
         <div className="relative">
-          <div className="hidden lg:block absolute top-1/2 left-1/4 right-1/4 h-1 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 rounded-full transform -translate-y-1/2"></div>
+          <div className="hidden lg:block absolute top-1/2 left-1/4 right-1/4 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-blue-500 rounded-full transform -translate-y-1/2"></div>
           
           <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
             {[ 
@@ -41,7 +41,7 @@ const ProcessSection = () => {
               },
             ].map((process, index) => (
               <div key={index} className="relative group">
-                <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-300 group-hover:scale-105 group-hover:shadow-yellow-400/20">
+                <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-300 group-hover:scale-105 group-hover:shadow-blue-500/20">
                   <div className="relative h-48 overflow-hidden">
                     <img 
                       src={process.image}
@@ -50,20 +50,20 @@ const ProcessSection = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent"></div>
                     
-                    <div className="absolute top-4 left-4 w-12 h-12 bg-yellow-400 text-gray-900 rounded-full flex items-center justify-center text-xl font-bold shadow-lg">
+                    <div className="absolute top-4 left-4 w-12 h-12 bg-blue-500 text-gray-900 rounded-full flex items-center justify-center text-xl font-bold shadow-lg">
                       {process.step}
                     </div>
                   </div>
                   
                   <div className="p-6">
-                    <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 bg-yellow-400/10 rounded-full">
-                      <i className={`${process.icon} text-yellow-400 text-2xl`}></i>
+                    <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 bg-blue-500/10 rounded-full">
+                      <i className={`${process.icon} text-blue-500 text-2xl`}></i>
                     </div>
                     <h3 className="text-xl font-semibold mb-3 text-white">{process.title}</h3>
                     <p className="text-gray-300 text-sm leading-relaxed">{process.description}</p>
                   </div>
                   
-                  <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-yellow-400/50 transition-all duration-300"></div>
+                  <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-blue-500/50 transition-all duration-300"></div>
                 </div>
               </div>
             ))}
@@ -71,17 +71,17 @@ const ProcessSection = () => {
           
           <div className="mt-12 flex justify-center items-center space-x-4">
             <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
               <span className="text-sm text-gray-400">탐지</span>
             </div>
-            <div className="w-16 h-0.5 bg-yellow-400/50"></div>
+            <div className="w-16 h-0.5 bg-blue-500/50"></div>
             <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
               <span className="text-sm text-gray-400">시공</span>
             </div>
-            <div className="w-16 h-0.5 bg-yellow-400/50"></div>
+            <div className="w-16 h-0.5 bg-blue-500/50"></div>
             <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
               <span className="text-sm text-gray-400">완료</span>
             </div>
           </div>

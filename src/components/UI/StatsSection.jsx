@@ -33,9 +33,9 @@ const StatsSection = () => {
           ].map((stat, index) => (
             <div key={index} className={`transform transition-all duration-700 delay-${index * 200} ${statsVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-20 opacity-0 scale-75'}`}>
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
-                <i className={`${stat.icon} text-yellow-400 text-3xl`}></i>
+                <i className={`${stat.icon} text-blue-500 text-3xl`}></i>
               </div>
-              <div className="text-3xl font-bold text-yellow-400 mb-2">{stat.number}</div>
+              <div className="text-3xl font-bold text-blue-500 mb-2">{stat.number}</div>
               <div className="text-gray-300">{stat.label}</div>
             </div>
           ))}

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 flex items-center justify-center">
-                <i className="ri-drop-fill text-yellow-400 text-2xl"></i>
+                <i className="ri-drop-fill text-blue-500 text-2xl"></i>
               </div>
               <span className="text-xl font-bold" style={{fontFamily: 'Pacifico, serif'}}>LeakZero</span>
             </div>
@@ -22,10 +22,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">서비스</h4>
             <ul className="space-y-2 text-gray-400">
-              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">누수 탐지</Link></li>
-              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">배관 공사</Link></li>
-              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">방수 공사</Link></li>
-              <li className="hover:text-yellow-400 cursor-pointer transition-colors"><Link to="/services">하수구 막힘</Link></li>
+              <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">누수 탐지</Link></li>
+              <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">배관 공사</Link></li>
+              <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">방수 공사</Link></li>
+              <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">하수구 막힘</Link></li>
             </ul>
           </div>
           

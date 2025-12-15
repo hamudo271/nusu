@@ -32,7 +32,7 @@ const GallerySection = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className={`text-center mb-16 transform transition-all duration-1000 ${galleryVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h2 className="text-4xl font-bold mb-4 text-white">
-            시공 <span className="text-yellow-400">갤러리</span>
+            시공 <span className="text-blue-500">갤러리</span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             최첨단 장비와 전문 기술로 해결한 다양한 현장을 확인하세요.
@@ -65,7 +65,7 @@ const GallerySection = () => {
             return (
               <div 
                 key={index} 
-                className={`relative overflow-hidden rounded-xl group cursor-pointer bg-gray-900 shadow-lg hover:shadow-yellow-400/20 transition-all duration-500 transform ${galleryVisible ? `translate-y-0 opacity-100 scale-100 transition-all duration-700 delay-${(index + 1) * 200}` : 'translate-y-20 opacity-0 scale-95'}`}
+                className={`relative overflow-hidden rounded-xl group cursor-pointer bg-gray-900 shadow-lg hover:shadow-blue-500/20 transition-all duration-500 transform ${galleryVisible ? `translate-y-0 opacity-100 scale-100 transition-all duration-700 delay-${(index + 1) * 200}` : 'translate-y-20 opacity-0 scale-95'}`}
               >
                 <div className="relative h-64 overflow-hidden">
                   <img 
@@ -75,7 +75,7 @@ const GallerySection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
-                  <div className="absolute top-4 left-4 bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute top-4 left-4 bg-blue-500 text-gray-900 px-3 py-1 rounded-full text-sm font-semibold">
                     Service {index + 1}
                   </div>
                   

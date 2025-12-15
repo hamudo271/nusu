@@ -19,7 +19,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <div className="w-8 h-8 flex items-center justify-center">
-            <i className="ri-drop-fill text-yellow-400 text-2xl"></i>
+            <i className="ri-drop-fill text-blue-500 text-2xl"></i>
           </div>
           <span
             className="text-xl font-bold text-white"
@@ -35,9 +35,9 @@ const Header = () => {
               to={item.path}
               className={`${
                 location.pathname === item.path
-                  ? "text-yellow-400"
+                  ? "text-blue-500"
                   : "text-gray-300"
-              } hover:text-yellow-400 transition-colors cursor-pointer font-medium`}
+              } hover:text-blue-500 transition-colors cursor-pointer font-medium`}
             >
               {item.name}
             </Link>
@@ -61,9 +61,9 @@ const Header = () => {
                 to={item.path}
                 className={`${
                   location.pathname === item.path
-                    ? "text-yellow-400"
+                    ? "text-blue-500"
                     : "text-white"
-                } hover:text-yellow-400 text-lg`}
+                } hover:text-blue-500 text-lg`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}

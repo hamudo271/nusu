@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 flex items-center justify-center">
                 <i className="ri-drop-fill text-blue-500 text-2xl"></i>
               </div>
-              <span className="text-xl font-bold" style={{fontFamily: 'Pacifico, serif'}}>LeakZero</span>
+              <span className="text-xl font-bold" style={{fontFamily: 'Pacifico, serif'}}>부산 누수방지</span>
             </div>
             <p className="text-gray-400">
               20년 경력의 부산/경남 누수 탐지 전문 업체.<br/>

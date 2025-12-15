@@ -25,7 +25,7 @@ const Header = () => {
             className="text-xl font-bold text-white"
             style={{ fontFamily: "Pacifico, serif" }}
           >
-            LeakZero
+            부산 누수방지
           </span>
         </Link>
         <nav className="hidden md:flex space-x-8">

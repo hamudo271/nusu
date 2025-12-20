@@ -17,16 +17,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 py-4 px-6 fixed w-full z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
-          <div className="w-8 h-8 flex items-center justify-center">
-            <i className="ri-drop-fill text-blue-500 text-2xl"></i>
-          </div>
-          <span
-            className="text-xl font-bold text-white"
-            style={{ fontFamily: "Pacifico, serif" }}
-          >
-            부산 누수방지
-          </span>
+          <img src="/nusu-logo.png" alt="부산 누수방지" className="h-12 w-auto object-contain" />
         </Link>
         <nav className="hidden md:flex space-x-8">
           {navItems.map((item) => (

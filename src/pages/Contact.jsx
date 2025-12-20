@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">전화 문의</h4>
-                  <p className="text-gray-600">010-9737-1215</p>
+                  <p className="text-gray-600">010-9580-9955</p>
                   <p className="text-sm text-gray-500 mt-1">365일 상담 가능</p>
                 </div>
               </div>

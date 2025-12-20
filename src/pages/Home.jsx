@@ -104,7 +104,7 @@ const Home = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-500 text-gray-900 px-8 py-4 font-semibold hover:bg-blue-400 transition-colors whitespace-nowrap cursor-pointer rounded">
-              010-9737-1215 전화하기
+              010-9580-9955 전화하기
             </button>
           </div>
         </div>

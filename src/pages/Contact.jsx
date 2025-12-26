@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">이메일</h4>
-                  <p className="text-gray-600">psmpsm85121@naver.com</p>
+                  <p className="text-gray-600">vlfdnvk@naver.com</p>
                 </div>
               </div>
 

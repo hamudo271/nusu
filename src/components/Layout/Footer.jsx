@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">문의하기</h4>
             <ul className="space-y-2 text-gray-400">
               <li>010-9580-9955</li>
-              <li>psmpsm85121@naver.com</li>
+              <li>vlfdnvk@naver.com</li>
               <li>부산/경남 전지역</li>
               <li>24시간 상담 가능</li>
             </ul>

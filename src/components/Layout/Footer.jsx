@@ -26,9 +26,6 @@ const Footer = () => {
               <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">배관 공사</Link></li>
               <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">방수 공사</Link></li>
               <li className="hover:text-blue-500 cursor-pointer transition-colors"><Link to="/services">하수구 막힘</Link></li>
-              <li className="hover:text-blue-500 cursor-pointer transition-colors">
-                <a href="https://m.blog.naver.com/wow1565?tab=1" target="_blank" rel="noopener noreferrer">네이버 블로그</a>
-              </li>
             </ul>
           </div>
           

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import heroBg from '../../assets/hero-bg.jpg';
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,7 +13,7 @@ const HeroSection = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <img 
-          src={`${import.meta.env.BASE_URL}tci00670000807.jpg`}
+          src={heroBg}
           alt="Hero Background" 
           className="w-full h-full object-cover"
         />
